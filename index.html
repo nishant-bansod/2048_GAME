@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2048</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h1>2048 Game </h1>
+        <hr>
+        <h2>Score: <span id="score">0</span></h2>
+        <div id="board">
+        </div>
+        <div class="continer">
+            <div class="popup" id="popup">
+                <!-- <img src="img.png"> -->
+                <h2>Game Over</h2> 
+                <h3>Your Score is : <span id="score1">0</span></h3>
+                <h3>Thank You</h3>
+                <button type ="button" onclick="closePopup()">New Game</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
